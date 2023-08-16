@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/favorilerFragment"
+        android:name="com.example.mobilproje.FavorilerFragment"
+        android:label="fragment_favoriler"
+        tools:layout="@layout/fragment_favoriler" />
+    <fragment
+        android:id="@+id/hesabimFragment"
+        android:name="com.example.mobilproje.HesabimFragment"
+        android:label="fragment_hesabim"
+        tools:layout="@layout/fragment_hesabim" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.mobilproje.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/sepetFragment"
+        android:name="com.example.mobilproje.SepetFragment"
+        android:label="fragment_sepet"
+        tools:layout="@layout/fragment_sepet" />
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.mobilproje.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" />
+    <fragment
+        android:id="@+id/musteriHizmetleriFragment"
+        android:name="com.example.mobilproje.MusteriHizmetleriFragment"
+        android:label="fragment_musteri_hizmetleri"
+        tools:layout="@layout/fragment_musteri_hizmetleri" />
+</navigation>
