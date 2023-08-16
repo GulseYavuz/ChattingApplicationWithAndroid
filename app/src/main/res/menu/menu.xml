@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/anasayfaFragment"
+        android:icon="@drawable/ic_anasayfa"
+        android:title="Anasayfa" />
+    <item
+        android:id="@+id/menuFragment"
+        android:icon="@drawable/ic_menu"
+        android:title="Menu" />
+    <item
+        android:id="@+id/sepetFragment"
+        android:icon="@drawable/ic_sepet"
+        android:title="Sepet" />
+    <item
+        android:id="@+id/hesabimFragment"
+        android:icon="@drawable/ic_hesabim"
+        android:title="Hesabim" />
+</menu>
